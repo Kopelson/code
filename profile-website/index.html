@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ken's Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico">
     <link rel="stylesheet" href="cssReset.css">
     <link rel="stylesheet" href="style.css">
     <script defer src="script.js"></script>
@@ -28,37 +29,104 @@
     <main>
         <section id="about" class="container tab-content active">
             <h2>About Me</h2>
-            <p>Hello! I'm Ken, a passionate full-stack web developer dedicated to building high-performance, scalable applications. I specialize in PHP, JavaScript, Laravel, React, and more.</p>
+            <div class="about-content text-justify">
+                <img src="assets\images\profile.jpg" alt="Ken Kopelson" class="profile-image">
+                <p>
+                    Hey there! I'm Ken, a full-stack web developer with a passion for crafting elegant, high-performance applications that not only function seamlessly but also enhance user experiences. I thrive on tackling complex problems, optimizing workflows, and transforming ideas into scalable, maintainable code. My expertise spans PHP, JavaScript, HTML5, CSS, and an ever-expanding array of technologies that keep me learning and evolving. I'm always eager to explore new frameworks, tools, and methodologies—whatever it takes to get the job done efficiently and effectively.
+                </p>
+                
+            </div>
+            <p class="text-justify">
+                Whether it's architecting robust backend systems, refining frontend interfaces for maximum usability, or integrating cutting-edge solutions, I take pride in building software that makes a real impact. Beyond the code, I believe in collaboration, continuous improvement, and pushing boundaries to create innovative solutions. Let's build something amazing together!
+            </p>
         </section>
 
         <section id="skills" class="container tab-content">
-            <h2>Skills</h2>
-            <ul>
-                <li>PHP, JavaScript, HTML, CSS</li>
-                <li>Laravel, Node.js, React</li>
-                <li>MySQL, PostgreSQL, Redis</li>
-                <li>Git, GitHub</li>
-                <li>AWS</li>
-            </ul>
-        </section>
+            <h2>⚡ Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>🎨 Frontend Development</h3>
+                    <p>Expertise in crafting responsive and interactive user interfaces using modern web technologies.</p>
+                    <ul>
+                        <li>HTML5, CSS3, JavaScript</li>
+                        <li>React, Vue.js</li>
+                        <li>UI/UX Design Principles</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3>🖥️ Backend Development</h3>
+                    <p>Building scalable and secure server-side applications with optimized performance.</p>
+                    <ul>
+                        <li>PHP, Node.js, Laravel</li>
+                        <li>RESTful API Development</li>
+                        <li>Authentication & Security</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3>💾 Database Management</h3>
+                    <p>Efficiently designing, managing, and querying relational and NoSQL databases.</p>
+                    <ul>
+                        <li>MySQL, PostgreSQL</li>
+                        <li>Redis for caching</li>
+                        <li>Database Optimization</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3>🚀 DevOps & Tools</h3>
+                    <p>Experience in version control, cloud platforms, and workflow automation.</p>
+                    <ul>
+                        <li>Git, GitHub, GitLab</li>
+                        <li>AWS, Docker</li>
+                        <li>CI/CD & Deployment Strategies</li>
+                    </ul>
+                </div>
+            </div>
+        </section>        
 
         <section id="projects" class="container tab-content">
-            <h2>Projects</h2>
+            <h2>🚀 Current Projects</h2>
             <div class="project">
-                <h3>File Share</h3>
-                <p>A secure file management and sharing platform.</p>
+                <h3>📝 Credit Application</h3>
+                <p>Developing an online credit application system that streamlines the process for customers to apply for credit. Features include secure form submission, real-time validation, and automated approval workflows. Integrates with <strong>PandaDoc</strong> for seamless document signing and processing.</p>
             </div>
             <div class="project">
-                <h3>Scanner & OCR</h3>
-                <p>AI-driven text extraction and image processing.</p>
+                <h3>📄 Document Scanner</h3>
+                <p>Building an AI-powered document scanner that extracts text from images using OCR technology. The system ensures accurate data retrieval and integrates with cloud storage for seamless document management. Powered by <strong>Scanbot SDK</strong> for robust scanning capabilities and <strong>AWS Textract</strong> for advanced OCR and text analysis.</p>
             </div>
-        </section>
+            <div class="project">
+                <h3>📜 Changelog Program</h3>
+                <p>Developing a changelog system that helps track software updates and modifications, complete with approval workflows, user notifications, and audit logging to enhance transparency and accountability.</p>
+            </div>
+            <div class="project">
+                <h3>💳 Online Payment System</h3>
+                <p>Creating a secure online payment gateway integrating tokenized payment methods, real-time transaction validation, and seamless user experience using CenPos and Google Address Validation for accuracy.</p>
+            </div>
+
+            <p class="disclaimer">*These projects are developed for <strong>Headwater Companies, LLC</strong>. Due to proprietary reasons, the source code cannot be shared publicly. If you're interested in a demo, please reach out directly.*</p>
+        </section>        
 
         <section id="contact" class="container tab-content">
-            <h2>Contact</h2>
-            <p>Email: <a href="mailto:kennethkopelson@gmail.com">kennethkopelson@gmail.com</a></p>
-            <p>GitHub: <a href="https://github.com/Kopelson" target="_blank">github.com/Kopelson</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/kennethkopelson/" target="_blank">linkedin.com/in/kennethkopelson/</a></p>
+            <h2>📬 Get in Touch</h2>
+            <p class="contact-intro">Feel free to reach out! Whether you have a project in mind, a collaboration opportunity, or just want to say hello, I'd love to connect.</p>
+            
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <h3>📧 Email</h3>
+                    <p><a href="mailto:kennethkopelson@gmail.com">kennethkopelson@gmail.com</a></p>
+                </div>
+                <div class="contact-card">
+                    <h3>🐙 GitHub</h3>
+                    <p><a href="https://github.com/Kopelson" target="_blank">github.com/Kopelson</a></p>
+                </div>
+                <div class="contact-card">
+                    <h3>💼 LinkedIn</h3>
+                    <p><a href="https://www.linkedin.com/in/kennethkopelson/" target="_blank">linkedin.com/in/kennethkopelson/</a></p>
+                </div>
+                <div class="contact-card">
+                    <h3>📍 Location</h3>
+                    <p>Based in the United States, open to remote work and collaboration.</p>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
