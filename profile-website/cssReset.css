@@ -1,0 +1,67 @@
+/* CSS Reset - A clean slate for consistent styling across browsers */
+
+/* Remove default margin, padding, and set border-box sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set default font styles */
+html {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+}
+
+/* Remove default list styles */
+ul, ol {
+    list-style: none;
+}
+
+/* Reset anchor styles */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Remove default button styles */
+button, input, textarea, select {
+    font: inherit;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+/* Ensure images and media are responsive */
+img, video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Set a basic body background and text color */
+body {
+    background-color: #fff;
+    color: #333;
+}
+
+/* Remove table spacing */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Remove default blockquote styles */
+blockquote, q {
+    quotes: none;
+}
+
+/* Set a consistent heading and paragraph spacing */
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}

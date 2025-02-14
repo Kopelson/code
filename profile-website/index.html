@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ken's Portfolio</title>
+    <link rel="stylesheet" href="cssReset.css">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="intro-card">
+                <h1 id="typed-text"></h1>
+                <p>Full-Stack Web Developer | Problem Solver | Tech Enthusiast</p>
+            </div>
+            <nav class="tabs">
+                <ul>
+                    <li class="tab active" data-target="about">About</li>
+                    <li class="tab" data-target="skills">Skills</li>
+                    <li class="tab" data-target="projects">Projects</li>
+                    <li class="tab" data-target="contact">Contact</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="about" class="container tab-content active">
+            <h2>About Me</h2>
+            <p>Hello! I'm Ken, a passionate full-stack web developer dedicated to building high-performance, scalable applications. I specialize in PHP, JavaScript, Laravel, React, and more.</p>
+        </section>
+
+        <section id="skills" class="container tab-content">
+            <h2>Skills</h2>
+            <ul>
+                <li>PHP, JavaScript, HTML, CSS</li>
+                <li>Laravel, Node.js, React</li>
+                <li>MySQL, PostgreSQL, Redis</li>
+                <li>Git, GitHub</li>
+                <li>AWS</li>
+            </ul>
+        </section>
+
+        <section id="projects" class="container tab-content">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>File Share</h3>
+                <p>A secure file management and sharing platform.</p>
+            </div>
+            <div class="project">
+                <h3>Scanner & OCR</h3>
+                <p>AI-driven text extraction and image processing.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="container tab-content">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:kennethkopelson@gmail.com">kennethkopelson@gmail.com</a></p>
+            <p>GitHub: <a href="https://github.com/Kopelson" target="_blank">github.com/Kopelson</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/kennethkopelson/" target="_blank">linkedin.com/in/kennethkopelson/</a></p>
+        </section>
+    </main>
+    <footer>
+        <p class="copy-right-text">&copy; 2025 Ken Kopelson. All rights reserved.</p>
+    </footer>
+</body>
+</html>
